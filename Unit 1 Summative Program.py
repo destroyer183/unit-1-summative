@@ -784,7 +784,7 @@ def algorithm():
     
     if choicepath == "41":
         text1 = "you: I accept."
-        text2 = "teacher: the rules are simple.\nwe are both given the same question,\nmand the first to answer it correctly\ngets a point. first to 3 points wins.\ncalculators allowed."
+        text2 = "teacher: the rules are simple.\nwe are both given the same question,\nand the first to answer it correctly\ngets a point. first to 3 points wins.\ncalculators allowed."
         text3 = ""
         text4 = ""
         choicetext1 = ""
