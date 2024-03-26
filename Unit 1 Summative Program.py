@@ -410,7 +410,7 @@ def algorithm():
 
 
     if choicepath == "21":
-        text1 = "you try the quiz.\nyou fail the quiz since you didn't\nunderstand the contents of it since\nyou didn't do your homework.\nyour parents find out." # Choice 11
+        text1 = "you try the quiz.\nyou fail the quiz since you didn't\nunderstand the contents of it since\nyou didn't do your homework.\nyour parents find out." 
         Choice1.place(x = 10000, y = 10000)
         Choice2.place(x = 10000, y = 10000)
         Choice3.place(x = 10000, y = 10000)
@@ -644,6 +644,7 @@ def algorithm():
 
 
     if choicepath == "322":
+        text1 = "well then I'm going to phone your parents and tell them about this."
         Choice1.place(x = 10000, y = 10000)
         Choice2.place(x = 10000, y = 10000)
         Choice3.place(x = 10000, y = 10000)
@@ -654,7 +655,6 @@ def algorithm():
         Choice3text.place(x = 10000, y = 10000)
         Choice4text.place(x = 10000, y = 10000)
         Choice5text.place(x = 10000, y = 10000)
-        text1 = "well then I'm going to phone your parents and tell them about this."
         text.configure(text= text1)
         gobackbutton = tk.Button(root, text="Next", command=lambda:goback())
         gobackbutton.configure(font=("Arial", 20, "bold"))
@@ -737,6 +737,7 @@ def algorithm():
 
 
     if choicepath == "332":
+        text1 = "teacher: well then I'm going to tell\nyour parents about what has happened here\nas you have wasted too much of\nmy time for this to continue."
         Choice1.place(x = 10000, y = 10000)
         Choice2.place(x = 10000, y = 10000)
         Choice3.place(x = 10000, y = 10000)
@@ -747,7 +748,6 @@ def algorithm():
         Choice3text.place(x = 10000, y = 10000)
         Choice4text.place(x = 10000, y = 10000)
         Choice5text.place(x = 10000, y = 10000)
-        text1 = "teacher: well then I'm going to tell\nyour parents about what has happened here\nas you have wasted too much of\nmy time for this to continue."
         text.configure(text= text1)
         gobackbutton = tk.Button(root, text="Next", command=lambda:goback())
         gobackbutton.configure(font=("Arial", 20, "bold"))
@@ -815,6 +815,7 @@ def algorithm():
 
 
     if choicepath == "43":
+        text1 = "you run away. after realizing you\ncan't just sleep on the road,\nyou go back home to angry parents."
         Choice1.place(x = 10000, y = 10000)
         Choice2.place(x = 10000, y = 10000)
         Choice3.place(x = 10000, y = 10000)
@@ -825,7 +826,6 @@ def algorithm():
         Choice3text.place(x = 10000, y = 10000)
         Choice4text.place(x = 10000, y = 10000)
         Choice5text.place(x = 10000, y = 10000)
-        text1 = "you run away. after realizing you\ncan't just sleep on the road,\nyou go back home to angry parents."
         text.configure(text= text1)
         gobackbutton = tk.Button(root, text="Next", command=lambda:goback())
         gobackbutton.configure(font=("Arial", 20, "bold"))
@@ -834,6 +834,8 @@ def algorithm():
 
 
     if choicepath == "44":
+        text1 = "you choose to beat up the teacher\ninstead of playing his math game.\nas a strong teen, you easily beat up\nyour math teacher who is an old man.\n"
+        text2 = "\nhowever, the school board finds\nout about this and you are expelled."
         Choice1.place(x = 10000, y = 10000)
         Choice2.place(x = 10000, y = 10000)
         Choice3.place(x = 10000, y = 10000)
@@ -844,8 +846,6 @@ def algorithm():
         Choice3text.place(x = 10000, y = 10000)
         Choice4text.place(x = 10000, y = 10000)
         Choice5text.place(x = 10000, y = 10000)
-        text1 = "you choose to beat up the teacher\ninstead of playing his math game.\nas a strong teen, you easily beat up\nyour math teacher who is an old man.\n"
-        text2 = "\nhowever, the school board finds\nout about this and you are expelled."
         text.configure(text= text1 + text2)
         gobackbutton = tk.Button(root, text="Next", command=lambda:goback())
         gobackbutton.configure(font=("Arial", 20, "bold"))
