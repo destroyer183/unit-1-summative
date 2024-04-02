@@ -1110,7 +1110,7 @@ def question(question1, question2, question3, question4, question5, solution1, s
     Choice4text.place(x = 10000, y = 10000)
     Choice5text.place(x = 10000, y = 10000)
     back.place(x = 10000, y = 10000)
-    next.place(x = 10000, y = 10000)\
+    next.place(x = 10000, y = 10000)
 
 questionbox = tk.Text(root, height = 1, width = 30, bg='white')
 
